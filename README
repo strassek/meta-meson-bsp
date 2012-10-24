@@ -1,0 +1,35 @@
+Board support layer for Meson
+
+This layer currently provides support for the Overo series COMs 
+produced my gumstix, available here:
+
+https://www.gumstix.com/store/index.php?cPath=33
+
+The majority of this metadata is derived from the official meta-gumstix layer 
+available on github (git://github.com/gumstix/meta-gumstix.git). The key
+difference is that this layer does not include any dependencies external
+to poky. 
+
+
+Dependencies
+------------
+
+Poky
+  URI: git://git.yoctoproject.org/poky.git
+  branch: denzil
+  revision: HEAD
+
+Maintenance
+-----------
+
+This layer is maintained by the Yocto Project. Send patches / pull requests
+to yocto@yoctoproject.org with '[meta-meson]' in the subject.
+
+License
+-------
+
+All metadata is MIT licensed unless otherwise stated. Souce code included
+in tree for individual recipes is under the LICENSE stated in each recipe
+(.bb file) unless otherwise stated.
+
+This README document is Copyright (C) 2012 Intel Corporation.
